@@ -1,6 +1,31 @@
 //custom variables
-$primary:#c29938;
-$light:#c34022;
+ $primary:#5265E1;
+ $secondary:#FA5959;
 
 //Import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.blue-background-round {
+    background-color: $primary;
+    width: 100rem;
+    height: 70%;
+    left: 15%;
+    top: 30%;
+    border-radius: 200px 0 0 200px;
+    position: absolute;
+    z-index: -3;
+}
+
+.btn-boton1 {
+  background-color: rgb(235, 64, 84);
+  color: white;
+  letter-spacing: 3px;
+}
+.btn-boton2 {
+  background-color: rgb(38, 81, 221);
+  color: white;
+}
+.btn-boton3 {
+  background-color: rgb(242, 238, 239);
+  color: black;
+}
