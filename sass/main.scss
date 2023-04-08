@@ -1,6 +1,7 @@
 //custom variables
 $primary: #5265e1;
 $secondary: #fa5959;
+$navy: #242a45;
 
 //Import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -80,6 +81,10 @@ nav-tabs {
   padding-bottom: 12px !important;
 }
 
+.accordion-button:hover{
+    color: #FA5959 !important;
+}
+
 
 
 $navy: #242a45;
@@ -88,3 +93,5 @@ $accordion-icon-color: $primary;
 $accordion-icon-active-color: #fa5959;
 $accordion-button-active-bg: white;
 $accordion-button-focus-box-shadow: none;
+
+
